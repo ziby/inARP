@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1427710493 source:/home/vlad/Документы/Projects/genaddusers/main.cpp
+	<User.h>
+	<Logger.h>
+	<stdlib.h>
+
+1427709566 /home/vlad/Документы/Projects/genaddusers/include/User.h
+	<string>
+	<sstream>
+	<vector>
+	<fstream>
+	<crypt.h>
+	<string.h>
+	<pwd.h>
+	<shadow.h>
+	<grp.h>
+	<unistd.h>
+	<sys/types.h>
+	"Logger.h"
+
+1426918942 /home/vlad/Документы/Projects/genaddusers/include/Logger.h
+	<iostream>
+	<vector>
+	<string>
+
+1426925355 source:/home/vlad/Документы/Projects/genaddusers/src/Logger.cpp
+	"Logger.h"
+
+1427710115 source:/home/vlad/Документы/Projects/genaddusers/src/User.cpp
+	"User.h"
+	<stdlib.h>
+

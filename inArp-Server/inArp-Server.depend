@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1426757928 source:/home/vlad/Документы/Projects/inArp-Server/in_arp_raw.c
+	"in_arp_raw.h"
+
+1426755404 /home/vlad/Документы/Projects/inArp-Server/in_arp_raw.h
+	<string.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<linux/if.h>
+	<netdb.h>
+	<stdio.h>
+	<netinet/if_ether.h>
+	<net/if_arp.h>
+	<sys/types.h>
+
+1426750002 source:/home/vlad/Документы/Projects/inArp-Server/main.c
+	<stdio.h>
+	<stdlib.h>
+	"in_arp_raw.h"
+
